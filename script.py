@@ -21,6 +21,7 @@ future_predict = regr.predict(X_future)
 plt.scatter(X, y)
 plt.plot(X, y_predict)
 plt.plot(X_future, future_predict)
+plt.savefig('honey_future.png')
 plt.show()
 
 print(df.head())
